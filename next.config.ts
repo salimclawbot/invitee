@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  experimental: {
+    // Allow dynamic routes without pre-rendering issues
+  },
 };
 
 export default nextConfig;
